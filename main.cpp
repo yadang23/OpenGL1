@@ -101,7 +101,6 @@ void drawTriangle()
 void drawCube()
 {
 
-
     static int rot=0;
     glPushMatrix();
         glRotated(++rot,0,1,0);
